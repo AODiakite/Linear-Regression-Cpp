@@ -2,24 +2,11 @@
 title: "Linear Regression with C++"
 author: "ABDOUL OUDOUSS DIAKITE"
 date: "2022-08-29"
-output:
-  html_document: 
-    toc: yes
-    fig_caption: yes
-    keep_md: yes
-    fig_width: 10
-    fig_height: 10
-  word_document: 
-    toc: yes
-  pdf_document: 
-    toc: yes
-    latex_engine: lualatex
-always_allow_html: true
 ---
 
 ## Introduction
 
-This repository contains a set of functions contained in an LM namespace. The idea is to facilitate the task of linear regression.\\
+This repository contains a set of functions contained in an LM namespace. The idea is to facilitate the task of linear regression.\
 The namespace contains two particular types, the matrix and the dataframe of numeric values only.
 
 
