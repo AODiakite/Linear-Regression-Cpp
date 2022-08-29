@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		A40B6A0528BA4FF200C7F7C7 /* linear regression */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "linear regression"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A40B6A0828BA4FF200C7F7C7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A40B6A0F28BAC7B300C7F7C7 /* LM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LM.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				A40B6A0828BA4FF200C7F7C7 /* main.cpp */,
+				A40B6A0F28BAC7B300C7F7C7 /* LM.h */,
 			);
 			path = "linear regression";
 			sourceTree = "<group>";
@@ -241,6 +243,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "/Users/abdouloudoussdiakite/eigen-3.4.0";
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/abdouloudoussdiakite/eigen-3.4.0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
